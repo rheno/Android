@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidContentProvider</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="some_text">Pick a country</string>
+	<string name="some_hint">Type here to filter&#8230;</string>
+
+</resources>
