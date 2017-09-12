@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:technicachat="http://schemas.android.com/apk/res-auto"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/filter_type"
+
+
+        android:title="Type"
+        android:icon="@android:drawable/ic_search_category_default">
+
+        <menu>
+            <item
+                android:id="@+id/suv"
+                android:title="SUV"
+                android:icon="@drawable/ic_launcher"/>
+            <item
+                android:id="@+id/mpv"
+                android:title="MPV"
+                android:icon="@drawable/ic_launcher"/>
+            <item
+                android:id="@+id/hatchback"
+                android:title="HATCHBACK"
+                android:icon="@drawable/ic_launcher"/>
+            <item
+                android:id="@+id/crossover"
+                android:title="CROSSOVER"
+                android:icon="@drawable/ic_launcher"/>
+            <item
+                android:id="@+id/coupe"
+                android:title="COUPE"
+                android:icon="@drawable/ic_launcher"/>
+        </menu>
+
+
+
+
+    </item>
+
+
+
+</menu>
