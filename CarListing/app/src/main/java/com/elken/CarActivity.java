@@ -111,13 +111,12 @@ public class CarActivity extends AppCompatActivity {
         db = new DatabaseHelper(this);
         cars = db.getFilterCarBy(pos);
 
-        if(cars.size() > 0) {
-            adapter = new CarListAdapter(this, cars);
-            recyclerView.setAdapter(adapter);
-            adapter.notifyDataSetChanged();
-        }else {
-            adapter = null;
-        }
+
+        adapter = new CarListAdapter(this, cars);
+        recyclerView.setAdapter(adapter);
+
+
+        adapter.notifyDataSetChanged();
 
     }
 
